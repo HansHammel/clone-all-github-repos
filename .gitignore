@@ -35,3 +35,4 @@ node_modules
 #private
 .idea
 config.js
+config.json
