@@ -32,7 +32,11 @@ var User = function(options) {
 };
 
 User.prototype.getRequestUri = function() {
-    return this.BASE_URI + this.User + '/repos' + '?per_page=' + this.perpage + '&type=' + this.type;
+// also possible to use &token=
+// for  /orgs/:org/repos type: all, public, private, forks, sources, member
+// /users/:username/repos  type: all, owner, member
+    return this.BASE_URI + this.User + '/repos' + '?type=owner';
+	//return this.BASE_URI + this.User + '/repos' + '?type=' + this.type;
 }
 
 User.prototype.getLastPage = function() {

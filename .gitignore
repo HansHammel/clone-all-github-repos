@@ -32,6 +32,18 @@ node_modules
 # Optional REPL history
 .node_repl_history
 
+#ignorred by npm
+.git
+CVS
+.svn
+.hg
+.lock-wscript
+.wafpickle-N
+*.swp
+.DS_Store
+._*
+npm-debug.log
+
 #private
 .idea
 config.js
