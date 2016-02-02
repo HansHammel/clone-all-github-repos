@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 var inquirer = require("inquirer");
 var path=require('path');
 var fs=require('fs');
