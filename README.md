@@ -1,6 +1,15 @@
 # clone-all-github-repos
 
-create a config.js file with
-  
-  module.export = {token: 'your github token for public repo access', gitaccess:'git', User:'your user name'};
+As Superuser/Administrator run
 
+	npm install https://github.com/HansHammel/clone-all-github-repos.git -g
+
+Note: On install, you get asked for your GitHub Username and a GitHub API token to access public/private repository information (to be created on GitHub Settings > Personal access tokens)
+
+usage:
+	
+	cwd> clone-all-github-repos
+
+and all your repos get cloned into the current working directory!
+
+Done.
