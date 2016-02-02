@@ -138,12 +138,12 @@ User.prototype.getCloneUrl = function(repo) {
 User.prototype.executeCloneCommand = function(repo) {
     var url = this.getCloneUrl(repo);
 
-	this.gitsettings.cwd = process.cwd();
     var spawnParams = ['clone'].concat(this.gitsettings || [], url);
-	console.log(process.cwd());
+	console.log(`Current directory: ${process.cwd()}`);
     console.info('cloning ' + url);
 
-    var process = spawn('git', spawnParams);
+    var process = spawn('git', spawnParams //, {cwd: }
+	);
 
     process.on('close', function(status) {
         if (status == 0) {
