@@ -10,7 +10,7 @@ As Superuser/Administrator run
 
 *usage:*
 	
-	cwd> clone-all-github-repos
+	> clone-all-github-repos
 
 and all your repos get cloned into the current working directory!
 
