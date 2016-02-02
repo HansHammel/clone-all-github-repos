@@ -7,7 +7,7 @@
     "clone-all-github-repos": "bin/clone-all-github-repos.js"
   },
   "scripts": {
-    "postinstall": "bin/create-config.js",
+    "postinstall": "node bin/create-config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Oliver Bleckmann",
