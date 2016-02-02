@@ -1,5 +1,6 @@
 var spawn = require('child_process').spawn
-    , request = require('request').defaults({ jar: true });
+var request = require('request').defaults({ jar: true });
+var cwd=process.cwd();
 
 
 var User = function(options) {
@@ -139,11 +140,9 @@ User.prototype.executeCloneCommand = function(repo) {
     var url = this.getCloneUrl(repo);
 
     var spawnParams = ['clone'].concat(this.gitsettings || [], url);
-	console.log(`Current directory: ${process.cwd()}`);
     console.info('cloning ' + url);
 
-    var process = spawn('git', spawnParams //, {cwd: }
-	);
+    var process = spawn('git', spawnParams, {cwd: cwd});
 
     process.on('close', function(status) {
         if (status == 0) {
