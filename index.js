@@ -152,9 +152,9 @@ User.prototype.executeCloneCommand = function(repo) {
     });
 }
 
+module.exports = User;
 
- var user = new User(require('./config.js')); // config.js containes {token: 'your ithub token for public repo access', gitaccess:'git', User:'your user name'}
- user.getRepositories(function(){console.log('done')}); 
+
 
 
 
