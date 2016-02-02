@@ -1,7 +1,6 @@
-var spawn = require('child_process').spawn
+var spawn = require('child_process').spawn;
 var request = require('request').defaults({ jar: true });
-var cwd=process.cwd();
-
+var cwd = process.cwd();
 
 var User = function(options) {
     this.BASE_URI = 'https://api.github.com/users/';
@@ -37,11 +36,11 @@ User.prototype.getRequestUri = function() {
 // /users/:username/repos  type: all, owner, member
     return this.BASE_URI + this.User + '/repos' + '?type=owner';
 	//return this.BASE_URI + this.User + '/repos' + '?type=' + this.type;
-}
+};
 
 User.prototype.getLastPage = function() {
     return this.lastPage || 1;
-}
+};
 
 User.prototype.getRepositories = function(callback) {
     var options = {
@@ -83,12 +82,12 @@ User.prototype.getRepositories = function(callback) {
             callback.call(this, null, { sucess: true });
         }
     }.bind(this));
-}
+};
 
 User.prototype.parseLinks = function(response) {
     if (response.headers.link) {
         var paginationLinks = {};
-        var links = response.headers.link.split(',')
+        var links = response.headers.link.split(',');
 
         for (var i = 0; i < links.length; i++) {
             var section = links[i].split(';');
@@ -105,7 +104,7 @@ User.prototype.parseLinks = function(response) {
         this.nextPageUrl = paginationLinks['next'];
         console.log('nextPageUrl ' + this.nextPageUrl);
     }
-}
+};
 
 User.prototype.clone = function(repo) {
     if (this.exclude && this.regexp && repo.name.match(this.exclude)) {
@@ -119,7 +118,7 @@ User.prototype.clone = function(repo) {
     } else {
         this.executeCloneCommand(repo);
     }
-}
+};
 
 User.prototype.getCloneUrl = function(repo) {
     var url;
@@ -136,18 +135,14 @@ User.prototype.getCloneUrl = function(repo) {
         default:
             return console.error ( 'Unknown git access protocol provided: ' + this.gitaccess );
     }
-
     return url;
-}
+};
 
 User.prototype.executeCloneCommand = function(repo) {
     var url = this.getCloneUrl(repo);
-
     var spawnParams = ['clone'].concat(this.gitsettings || [], url);
     console.info('cloning ' + url);
-
     var process = spawn('git', spawnParams, {cwd: cwd});
-
     process.on('close', function(status) {
         if (status == 0) {
             console.info('success cloning ' + url);
@@ -155,7 +150,7 @@ User.prototype.executeCloneCommand = function(repo) {
             console.error('git clone failed with status ' + status);
         }
     });
-}
+};
 
 module.exports = User;
 
