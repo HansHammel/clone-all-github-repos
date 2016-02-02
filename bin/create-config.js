@@ -17,7 +17,7 @@ var questions = [
  inquirer.prompt(questions, function( answers ) {
 	answers.gitaccess = 'git';
 	console.log( JSON.stringify(answers, null, "  "));
-	fs.writeFileSync(path.join(__dirname,'../config.json'), JSON.stringify(answers, null, "  "), function(err) {
+	fs.writeFile(path.join(__dirname,'../config.json'), JSON.stringify(answers, null, "  "), function(err) {
 	  if (err) { console.log(err); process.exit(1); }
 	});
 });
