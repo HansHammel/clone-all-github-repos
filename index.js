@@ -18,13 +18,13 @@ User.prototype.getRequestUri = function () {
 // also possible to use &token=
 // for  /orgs/:org/repos type: all, public, private, forks, sources, member
 // /users/:username/repos  type: all, owner, member
-    return this.BASE_URI + this.User + '/repos' + '?type=owner';
+    return this.BASE_URI + this.User + '/repos?type=owner';
     //return this.BASE_URI + this.User + '/repos' + '?type=' + this.type;
 };
 
 User.prototype.getRepositories = function (callback) {
     var options = {
-        url: this.getRequestUri,
+        url: this.getRequestUri(),
         headers: {
             'User-Agent': 'request'
         },
