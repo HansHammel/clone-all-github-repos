@@ -3,6 +3,7 @@ var spawn = require('child_process').spawn;
 var request = require('request').defaults({jar: true});
 var cwd = process.cwd();
 
+
 var User = function (options) {
     this.BASE_URI = 'https://api.github.com/users/';
     this.User = options.User;
@@ -64,7 +65,7 @@ User.prototype.getCloneUrl = function (repo) {
             url = repo.ssh_url;
             break;
         case 'git': //remove, you cannot push on git urls
-                    //noinspection JSUnresolvedVariable
+            //noinspection JSUnresolvedVariable
             url = repo.git_url;
             break;
         case 'https':
