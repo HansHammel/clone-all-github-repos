@@ -24,10 +24,17 @@
     "name": "Oliver Bleckmann",
     "url": "https://github.com/HansHammel"
   },
+  "maintainers": [
+    {
+      "name": "HansHammel",
+      "email": "oh.schitt@freenet.de"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/HansHammel/clone-all-github-repos/issues"
   },
+  "homepage": "https://github.com/HansHammel/clone-all-github-repos",
   "repository": {
     "type": "git",
     "url": "https://github.com/HansHammel/clone-all-github-repos.git"
