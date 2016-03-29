@@ -13,6 +13,8 @@
     "sync",
     "backup",
     "repositories",
+	"user",
+	"organization",
     "downlaod"
   ],
   "scripts": {
@@ -27,7 +29,7 @@
   "maintainers": [
     {
       "name": "HansHammel",
-      "email": "oh.schitt@freenet.de"
+      "email": "mail@specialsolutions.de"
     }
   ],
   "license": "MIT",
