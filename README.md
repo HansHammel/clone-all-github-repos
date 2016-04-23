@@ -23,11 +23,11 @@ and all your repos get cloned into the current working directory!
 Done.
 
 *Note:* 
-Currently only GitHub USER (vs. ORGANIZATION) accounts are supported.
+__Currently only GitHub USER (vs. ORGANIZATION) accounts are supported.__
 
-On install, you get asked for your GitHub Username and a GitHub API token to access public/private repository information. The settings are stored in your users home directory (~/.cagr/config.json or %HOMEPATH%\.cagr\config.json).
+__On install, you get asked for your GitHub Username and a GitHub API token to access public/private repository information. The settings are stored in your users home directory (~/.cagr/config.json or %HOMEPATH%\.cagr\config.json).__
 
-To create an access-token to to GitHub > Settings > Personal access tokens. Give at least read access to your public repositories. 
+__To create an access-token to to GitHub > Settings > Personal access tokens. Give at least read access to your public repositories.__ 
 
 ![create an access-token](/screenshots/githubsettings.jpg?raw=true "GitHub > Settings > Personal access tokens")
 
