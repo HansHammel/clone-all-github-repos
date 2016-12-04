@@ -1,6 +1,6 @@
 {
   "name": "clone-all-github-repos",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Clones all your GitHub repositories into the current working directory e.g. for sync or backup tasks...",
   "main": "index.js",
   "bin": {
@@ -13,8 +13,8 @@
     "sync",
     "backup",
     "repositories",
-	"user",
-	"organization",
+    "user",
+    "organization",
     "downlaod"
   ],
   "scripts": {
@@ -42,7 +42,7 @@
     "url": "https://github.com/HansHammel/clone-all-github-repos.git"
   },
   "dependencies": {
-    "inquirer": "^0.11.4",
-    "request": "^2.69.0"
+    "inquirer": "^1.2.3",
+    "request": "^2.79.0"
   }
 }
