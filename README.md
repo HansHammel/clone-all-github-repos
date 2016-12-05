@@ -1,3 +1,5 @@
+# clone-all-github-repos
+
 [![NPM](https://nodei.co/npm/clone-all-github-repos.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/clone-all-github-repos/) 
 [![NPM](https://nodei.co/npm-dl/clone-all-github-repos.png?months=9&height=3)](https://nodei.co/npm/clone-all-github-repos/)
 
@@ -10,8 +12,6 @@
 [![david devDependency](https://img.shields.io/david/dev/HansHammel/clone-all-github-repos.svg)]()
 [![david optionalDependency](https://img.shields.io/david/optional/HansHammel/clone-all-github-repos.svg)]()
 [![david peerDependency](https://img.shields.io/david/peer/HansHammel/clone-all-github-repos.svg)]()
-
-# clone-all-github-repos
 
 *install:*
 
