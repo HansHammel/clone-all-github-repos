@@ -1,5 +1,5 @@
 [![NPM](https://nodei.co/npm/clone-all-github-repos.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/clone-all-github-repos/) 
-[![NPM](https://nodei.co/npm-dl/clone-all-github-repos.png)](https://nodei.co/npm/clone-all-github-repos/) 
+[![NPM](https://nodei.co/npm-dl/clone-all-github-repos.png?months=9&height=3)](https://nodei.co/npm/clone-all-github-repos/)
 
 [![npm version](https://img.shields.io/npm/v/clone-all-github-repos.svg)](https://www.npmjs.com/package/clone-all-github-repos)
 [![npm license](https://img.shields.io/npm/l/clone-all-github-repos.svg)](https://www.npmjs.com/package/clone-all-github-repos)
