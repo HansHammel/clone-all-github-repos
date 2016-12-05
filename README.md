@@ -1,9 +1,10 @@
 [![NPM](https://nodei.co/npm/clone-all-github-repos.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/clone-all-github-repos/) 
 [![NPM](https://nodei.co/npm-dl/clone-all-github-repos.png)](https://nodei.co/npm/clone-all-github-repos/) 
 [![npm version](https://img.shields.io/npm/v/david.svg)](https://www.npmjs.com/package/clone-all-github-repos) 
+<!--
 [![Dependency Status](https://david-dm.org/HansHammel/clone-all-github-repos.svg)](https://david-dm.org/HansHammel/clone-all-github-repos) 
 [![devDependency Status](https://david-dm.org/HansHammel/clone-all-github-repos/dev-status.svg)](https://david-dm.org/HansHammel/clone-all-github-repos/?type=dev) 
-
+-->
 
 # clone-all-github-repos
 
