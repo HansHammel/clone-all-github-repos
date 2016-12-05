@@ -1,20 +1,14 @@
 [![NPM](https://nodei.co/npm/clone-all-github-repos.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/clone-all-github-repos/) 
 [![NPM](https://nodei.co/npm-dl/clone-all-github-repos.png)](https://nodei.co/npm/clone-all-github-repos/) 
-[![npm version](https://badge.fury.io/js/clone-all-github-repos.svg)](https://badge.fury.io/js/clone-all-github-repos)
 
-[![codecov](https://img.shields.io/codecov/c/github/codecov/example-python/master.svg)]()
+[![npm version](https://badge.fury.io/js/clone-all-github-repos.svg)](https://badge.fury.io/js/clone-all-github-repos)
 [![](https://img.shields.io/npm/dt/clone-all-github-repos.svg)]()
 [![](https://img.shields.io/npm/dm/clone-all-github-repos.svg)]()
-
-
-[![](https://img.shields.io/npm/l/clone-all-github-repos.svg)]()
-
 [![](https://img.shields.io/david/HansHammel/clone-all-github-repos.svg)]()
 [![](https://img.shields.io/david/dev/HansHammel/clone-all-github-repos.svg)]()
 [![](https://img.shields.io/david/optional/HansHammel/clone-all-github-repos.svg)]()
 [![](https://img.shields.io/david/peer/HansHammel/clone-all-github-repos.svg)]()
-[![](https://img.shields.io/librariesio/github/HansHammel/clone-all-github-repos.svg)]()
-
+[![](https://img.shields.io/npm/l/clone-all-github-repos.svg)]()
 
 # clone-all-github-repos
 
