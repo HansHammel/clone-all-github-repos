@@ -1,7 +1,10 @@
-[![NPM](https://nodei.co/npm/clone-all-github-repos.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/clone-all-github-repos/) [![NPM](https://nodei.co/npm-dl/clone-all-github-repos.png)](https://nodei.co/npm/clone-all-github-repos/) 
-[![npm version](https://badge.fury.io/js/clone-all-github-repos.svg)](https://badge.fury.io/js/clone-all-github-repos)
+[![NPM](https://nodei.co/npm/clone-all-github-repos.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/clone-all-github-repos/) 
+[![NPM](https://nodei.co/npm-dl/clone-all-github-repos.png)](https://nodei.co/npm/clone-all-github-repos/) 
 
+
+[![npm version](https://badge.fury.io/js/clone-all-github-repos.svg)](https://badge.fury.io/js/clone-all-github-repos)
 [![Dependency Status](https://david-dm.org/HansHammel/clone-all-github-repos.svg?theme=shields.io)](https://david-dm.org/HansHammel/clone-all-github-repos)[![devDependency Status](https://david-dm.org/HansHammel/clone-all-github-repos/dev-status.svg?theme=shields.io)](https://david-dm.org/HansHammel/clone-all-github-repos#info=devDependencies)
+
 # clone-all-github-repos
 
 *install:*
