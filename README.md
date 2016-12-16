@@ -27,15 +27,24 @@ or install the latest version from github
 
 *usage:*
 	
-	> clone-all-github-repos
+	clone-all-github-repos
+
+or
+
+```shell
+cagr
+```
 
 and all your repos get cloned into the current working directory!
 
-*uninstall:*
+Done.
+
+
+*PS: uninstall:*
 
 	npm uninstall clone-all-github-repos -g
 
-Done.
+
 
 *Note:* 
 __Currently only GitHub USER (vs. ORGANIZATION) accounts are supported.__
