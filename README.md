@@ -8,6 +8,7 @@
 [![npm download](https://img.shields.io/npm/dm/clone-all-github-repos.svg)](https://www.npmjs.com/package/clone-all-github-repos)
 [![npm download](https://img.shields.io/npm/dt/clone-all-github-repos.svg)](https://www.npmjs.com/package/clone-all-github-repos)
 [![Package Quality](http://npm.packagequality.com/shield/clone-all-github-repos.svg)](http://packagequality.com/#?package=clone-all-github-repos)
+[![Inline docs](http://inch-ci.org/github/HansHammel/clone-all-github-repos.svg?branch=master)](http://inch-ci.org/github/HansHammel/clone-all-github-repos)
 
 [![david dependency](https://img.shields.io/david/HansHammel/clone-all-github-repos.svg)](https://david-dm.org/HansHammel/clone-all-github-repos)
 [![david devDependency](https://img.shields.io/david/dev/HansHammel/clone-all-github-repos.svg)](https://david-dm.org/HansHammel/clone-all-github-repos)
