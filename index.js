@@ -25,7 +25,7 @@ User.prototype.getRequestUri = function () {
 
 User.prototype.getRepositories = function (callback) {
     var options = {
-        url: this.getRequestUri(),
+        url: this.getRequestUri()+'&per_page=100',
         headers: {
             'User-Agent': 'request'
         },
