@@ -11,7 +11,6 @@
 [![Inline docs](http://inch-ci.org/github/HansHammel/clone-all-github-repos.svg?branch=master)](http://inch-ci.org/github/HansHammel/clone-all-github-repos)
 [![star this repo](http://githubbadges.com/star.svg?user=HansHammel&repo=clone-all-github-repos&style=flat&color=fff&background=007ec6)](https://github.com/HansHammel/clone-all-github-repos)
 [![fork this repo](http://githubbadges.com/fork.svg?user=HansHammel&repo=clone-all-github-repos&style=flat&color=fff&background=007ec6)](https://github.com/HansHammel/clone-all-github-repos/fork)
-
 [![david dependency](https://img.shields.io/david/HansHammel/clone-all-github-repos.svg)](https://david-dm.org/HansHammel/clone-all-github-repos)
 [![david devDependency](https://img.shields.io/david/dev/HansHammel/clone-all-github-repos.svg)](https://david-dm.org/HansHammel/clone-all-github-repos)
 [![david optionalDependency](https://img.shields.io/david/optional/HansHammel/clone-all-github-repos.svg)](https://david-dm.org/HansHammel/clone-all-github-repos)
