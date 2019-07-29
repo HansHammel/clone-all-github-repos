@@ -56,7 +56,8 @@ __We have a limit of 100 repositories__
 
 __On install, you get asked for your GitHub Username and a GitHub API token to access public/private repository information. The settings are stored in your users home directory (~/.cagr/config.json or %HOMEPATH%\.cagr\config.json).__
 
-__To create an access-token go to GitHub > Settings > Personal access tokens. Give at least read access to your public repositories.__ 
+__To create an access-token go to GitHub > Settings > Developer settings > Personal access tokens. Give at least read access to your public repositories.__ 
 
 ![create an access-token](/screenshots/githubsettings.jpg?raw=true "GitHub > Settings > Personal access tokens")
+(old screenshot, now located under Settings > Developer settings)
 
