@@ -45,7 +45,7 @@ if (fs.existsSync(conffile)) {
         });
     });
     } else {
-        fs.writeFile(conffile, JSON.stringify({gitaccess: 'https', token 'abc', User: 'def' }, null, "  "), function (err) {
+        fs.writeFile(conffile, JSON.stringify({gitaccess: 'https', token: 'abc', User: 'def' }, null, "  "), function (err) {
                 if (err) {
                       console.log(colors.red('Cannot save config!'));
                     console.log(err);
