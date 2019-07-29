@@ -17,6 +17,8 @@ if (fs.existsSync(conffile)) {
     console.log(colors.yellow('Note: Using exisiting config file at: ' + conffile));
     console.log(colors.yellow('Note: Use cagr or clone-all-github-repos to clone all your repos into the current folder'));
 } else {
+    if (process.env.NODE_ENV != "testing")
+    {
     console.log(colors.yellow('Please input your GitHub Username and a token to access public/private repository information (to be created on GitHub Settings > Personal access tokens)'));
     var questions = [
         {
@@ -42,4 +44,14 @@ if (fs.existsSync(conffile)) {
             console.log(colors.yellow('Note: Use cagr or clone-all-github-repos to clone all your repos into the current folder'));
         });
     });
+    } else {
+        fs.writeFile(conffile, JSON.stringify({gitaccess: 'https', token 'abc', User: 'def' }, null, "  "), function (err) {
+                if (err) {
+                      console.log(colors.red('Cannot save config!'));
+                    console.log(err);
+                    process.exit(1);
+                }
+                console.log(colors.yellow('Note: Created config file at: ' + conffile));
+                console.log(colors.yellow('Note: Use cagr or clone-all-github-repos to clone all your repos into the current folder'));
+    }
 }
