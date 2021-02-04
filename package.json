@@ -45,7 +45,7 @@
   "dependencies": {
     "colors": "^1.4.0",
     "inquirer": "^6.5.2",
-    "request": "^2.88.0"
+    "request": "^2.88.2"
   },
   "engines": {
     "node": ">=0.10"
