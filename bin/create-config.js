@@ -2,8 +2,10 @@
 var inquirer = require("inquirer");
 var path = require('path');
 var fs = require('fs');
+var os = require('os');
 var colors = require('colors/safe');
-var homedir = (process.platform === 'win32') ? process.env.HOMEPATH : process.env.HOME;
+//var homedir = (process.platform === 'win32') ? process.env.HOMEPATH : process.env.HOME;
+var homedir = os.homedir();
 if (!fs.existsSync(homedir)) {
     console.log(colors.red('No home path found, cannot save config!'));
     process.exit(1);
