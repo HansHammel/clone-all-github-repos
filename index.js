@@ -49,6 +49,11 @@ User.prototype.getRepositories = function (callback) {
             console.error(error);
             callback.call(this, error);
         } else {
+            if (response.statusCode >= 300){
+                console.error(response.statusCode + " " + body.message);
+                process.exit(-1);
+            }
+            
             for (var i = 0; i < body.length; i++) {
                 this.executeCloneCommand(body[i]);
             }

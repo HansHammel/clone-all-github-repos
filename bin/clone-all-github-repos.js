@@ -2,8 +2,9 @@
 var User = require('../index.js');
 var path = require('path');
 var fs = require('fs');
+var os = require('os');
 var colors = require('colors/safe');
-var homedir = (process.platform === 'win32') ? process.env.HOMEPATH : process.env.HOME;
+var homedir = os.homedir(); //(process.platform === 'win32') ? process.env.HOMEPATH : process.env.HOME;
 var dir = path.join(homedir, '.cagr');
 var conffile = path.join(dir, 'config.json');
 if (!fs.existsSync(conffile)) {
