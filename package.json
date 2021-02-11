@@ -1,6 +1,6 @@
 {
   "name": "clone-all-github-repos",
-  "version": "1.0.12",
+  "version": "2.0.1",
   "description": "Clones all your GitHub repositories into the current working directory e.g. for sync or backup tasks...",
   "main": "index.js",
   "bin": {

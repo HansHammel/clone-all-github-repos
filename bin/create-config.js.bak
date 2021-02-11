@@ -39,7 +39,7 @@ if (fs.existsSync(conffile)) {
                 process.exit(1);
             }
             console.log(colors.yellow('Note: Created config file at: ' + conffile));
-            console.log(colors.yellow('Note: Use cagr or clone-all-github-repos to clone all your repos into the current folder');
+            console.log(colors.yellow('Note: Use cagr or clone-all-github-repos to clone all your repos into the current folder'));
         });
     });
 }
