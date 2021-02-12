@@ -17,6 +17,7 @@
 [![david peerDependency](https://img.shields.io/david/peer/HansHammel/clone-all-github-repos.svg)](https://david-dm.org/HansHammel/clone-all-github-repos)
 [![npms score](https://badges.npms.io/clone-all-github-repos.svg)](https://www.npmjs.com/package/clone-all-github-repos)
 [![Known Vulnerabilities](https://snyk.io/test/github/HansHammel/clone-all-github-repos/badge.svg)](https://snyk.io/test/github/HansHammel/clone-all-github-repos)
+[![Build Status](https://travis-ci.org/HansHammel/clone-all-github-repos.svg?branch=master)](https://travis-ci.org/HansHammel/clone-all-github-repos)
 
 *install:*
 
