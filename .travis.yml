@@ -8,10 +8,10 @@ branches:
     - /^greenkeeper-.*$/
 
 node_js:
-  - '10'
-  - '11'
-  - '12'
-  - '13'
+  - 10
+  - 11
+  - 12
+  - 13
   - lts/*
   - node
 
