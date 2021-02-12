@@ -12,7 +12,7 @@ node_js:
   - '11'
   - '12'
   - '13'
-  - lts
+  - lts/*
   - node
 
 os:
