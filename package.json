@@ -1,6 +1,6 @@
 {
   "name": "clone-all-github-repos",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Clones all your GitHub repositories into the current working directory e.g. for sync or backup tasks...",
   "main": "index.js",
   "bin": {
@@ -19,7 +19,6 @@
     "downlaod"
   ],
   "scripts": {
-    "postinstall": "node bin/create-config.js",
     "test": "echo \"Error: no test specified\" && exit 0",
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"

@@ -55,7 +55,9 @@ __Currently only GitHub USER (vs. ORGANIZATION) accounts are supported.__
 
 __We have a limit of 100 repositories__
 
-__On install, you get asked for your GitHub Username and a GitHub API token to access public/private repository information. The settings are stored in your users home directory (~/.cagr/config.json or %HOMEPATH%\.cagr\config.json).__
+~~On install, you get asked for your GitHub Username and a GitHub API token to access public/private repository information. The settings are stored in your users home directory (~/.cagr/config.json or %HOMEPATH%\.cagr\config.json).~~
+
+__On fist use, you get asked for your GitHub Username and a GitHub API token to access public/private repository information. The settings are stored in your users home directory (~/.cagr/config.json or %HOMEPATH%\.cagr\config.json).__
 
 __To create an access-token go to GitHub > Settings > Developer settings > Personal access tokens. Give at least read access to your public repositories.__ 
 
