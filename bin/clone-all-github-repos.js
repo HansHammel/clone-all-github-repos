@@ -11,7 +11,7 @@ var conffile = path.join(dir, "config.json");
 //   console.error(colors.red("Could not find config file at: " + conffile));
 //   process.exit(1);
 // }
-var config = require('../config.js')
+var config = require('../createConfig.js')
 
 const run = async () => {
   await config.createConfig();
