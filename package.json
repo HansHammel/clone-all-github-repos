@@ -45,9 +45,9 @@
   },
   "dependencies": {
     "colors": "^1.4.0",
-    "inquirer": "^7.3.3",
+    "inquirer": "^8.2.7",
     "request": "^2.88.2",
-    "snyk": "^1.452.0"
+    "snyk": "^1.996.0"
   },
   "engines": {
     "node": ">=0.10"
